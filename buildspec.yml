@@ -9,6 +9,7 @@ phases:
     commands:
     - echo "Entered build phase"
     - mvn clean prepare-package war:exploded
+    - echo "My First Build"
   post_build:
     commands:
     - echo "Entered the post-build phase"
