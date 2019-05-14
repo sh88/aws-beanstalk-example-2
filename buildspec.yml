@@ -9,7 +9,7 @@ phases:
     commands:
     - echo "Entered build phase"
     - mvn clean prepare-package war:exploded
-    - echo "My First Build"
+    - echo "My First Build : Elasic"
   post_build:
     commands:
     - echo "Entered the post-build phase"
